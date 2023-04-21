@@ -231,7 +231,7 @@ void room::describe(){
         cout<<"------------------"<<endl;
     }
 }
-//---------------floatVecDict-------------
+//---------------floatVecDic--------------
 void floatVecDic::setAll(vector<string> mykeys,vector<float> myvals){
     if (size(mykeys)!=size(myvals)){
         throw invalid_argument("Keys and vals must have same length");
@@ -308,7 +308,7 @@ void floatVecDic::show(){
     }
     cout<<endl;
 }
-//---------------float2dVecDict-------------
+//---------------float2dVecDic--------------
 void float2dVecDic::setAll(vector<string> mykeys,vector<vector<float>> myvals){
     if (size(mykeys)!=size(myvals)){
         throw invalid_argument("Keys and vals must have same length");
@@ -386,7 +386,7 @@ void float2dVecDic::show(){
     }
     cout<<endl;
 }
-//---------------SecVecDict-------------
+//---------------secVecDic--------------
 void secVecDic::append(string key, section* val){
     for (int i=0;i<size(keys);i++){
         if (key==keys[i]){
