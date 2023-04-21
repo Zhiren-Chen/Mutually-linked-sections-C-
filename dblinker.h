@@ -1,5 +1,3 @@
-//#ifndef DBLINKER.H
-//#define DBLINKER.H
 #pragma once
 #include <iostream>
 #include <string>
@@ -67,4 +65,3 @@ class room:public section{
     vector<float> getrt();
     void describe();
 };
-//#endif
